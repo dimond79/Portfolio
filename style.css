@@ -98,7 +98,7 @@ nav .menu-btn,
   display: none;
 }
 nav .menu-btn{
-  color: #4070f4;
+  color: #3c64c9;
 }
 nav.sticky .menu-btn{
   color: #FFF;
@@ -352,7 +352,7 @@ section .button button:hover{
 .services .boxes .box:hover p{
   color: #fff;
 }
-/* Contact Me CSS */
+/* Connect with Me CSS */
 .contact{
   background: #F0F8FF;
 }
@@ -366,15 +366,21 @@ section .button button:hover{
   margin: auto;
 }
 
+.contact .media-icons a{
+  color: #4070f4;
+  font-size: 20px;
+  margin: 0 6px;
+}
+
 /* Footer CSS */
 footer{
   background: #4070f4;
-  padding: 15px 0;
+  padding: 10px 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
 footer .text span{
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 400;
   color: #fff;
 }
@@ -385,6 +391,9 @@ footer .text span a{
 footer .text span a:hover{
   text-decoration: underline;
 }
+
+
+
 /* Scroll TO Top Button CSS */
 .scroll-button a{
   position: fixed;
